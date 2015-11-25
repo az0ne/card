@@ -2,7 +2,7 @@
 /*****************************
 *数据库连接
 *****************************/
-$conn = @mysql_connect("localhost","root","33eeddcc");
+$conn = @mysql_connect("localhost","root","");
 if (!$conn){
 	die("连接数据库失败：" . mysql_error());
 }
